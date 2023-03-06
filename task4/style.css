@@ -57,3 +57,31 @@ th {
   color: black;
   line-height: 23px;
 }
+
+#cont {
+  position: relative;
+  display: block;
+}
+
+#cont::before {
+  content: "+91";
+  position: absolute;
+  top: 6px;
+  left: 51rem;
+  z-index: 99;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.input1 {
+  text-indent: 30px;
+  /* min-width: 300px;
+  min-height: 150px; */
+  font-size: 14px;
+  padding: 5px;
+  width: 17.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}

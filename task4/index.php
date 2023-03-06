@@ -7,10 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <link rel="stylesheet" href="style.css">
-  <title>PHP-Third-Task</title>
+  <title>PHP-Fourth-Task</title>
 </head>
 
 <body>
+
   <div class="mainform">
     <form action="welcome.php" method="post" enctype="multipart/form-data">
       <span>First Name:</span>
@@ -22,6 +23,9 @@
       <span> Image:</span>
       <input class="fileupload" name="image" type="file" id="file" /><br>
       <textarea class="marksarea" name="marks" id="" cols="32" rows="10" placeholder="Type Your Marks Here Like: Subject|80"></textarea><br>
+      <div id="cont">
+        <input type="text" maxlength="10" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" class="input1"></input>
+      </div>
       <input class="submitbtn" type="submit">
     </form>
   </div>
@@ -35,7 +39,6 @@
       });
     });
   </script>
-
 </body>
 
 </html>

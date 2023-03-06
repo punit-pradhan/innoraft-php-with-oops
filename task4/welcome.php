@@ -65,7 +65,6 @@
         $user->displaymarks();
     }
     ?>
-
 </body>
 
 </html>
