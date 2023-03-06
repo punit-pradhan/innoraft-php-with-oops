@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <link rel="stylesheet" href="style.css">
-  <title>PHP-Second-Task</title>
+  <title>PHP-Third-Task</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
       <input id="flname" type="text" disabled><br>
       <span> Image:</span>
       <input class="fileupload" name="image" type="file" id="file" /><br>
-
+      <textarea class="marksarea" name="marks" id="" cols="32" rows="10" placeholder="Type Your Marks Here Like: Subject|80"></textarea><br>
       <input class="submitbtn" type="submit">
     </form>
   </div>
@@ -35,6 +35,7 @@
       });
     });
   </script>
+
 </body>
 
 </html>
