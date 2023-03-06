@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainform {
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+.fname,
+.lname,
+#flname {
+  height: 2rem;
+  width: 13rem;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  border: 1px solid black;
+  font-size: 16px;
+  padding: 5px;
+}
+#flname {
+  background-color: rgb(126, 207, 207);
+}
+.submitbtn {
+  height: 2.5rem;
+  width: 19rem;
+}
