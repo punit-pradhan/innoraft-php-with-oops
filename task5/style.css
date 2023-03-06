@@ -16,7 +16,8 @@ th {
 }
 .fname,
 .lname,
-#flname {
+#flname,
+.emailbox {
   height: 2rem;
   width: 13rem;
   margin-bottom: 10px;
@@ -84,4 +85,8 @@ th {
   margin-bottom: 10px;
   background-color: aliceblue;
   border: 1px solid black;
+}
+.emailbox {
+  margin-bottom: 0;
+  width: 15rem;
 }
