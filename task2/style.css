@@ -25,3 +25,18 @@
   height: 2.5rem;
   width: 19rem;
 }
+.submitbtn:hover {
+  background-color: grey;
+  color: white;
+  border: 1px solid black;
+  font-weight: bold;
+}
+.fileupload {
+  font-size: 15px;
+  padding: 5px;
+  margin-left: 1.7rem;
+  width: 13rem;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
